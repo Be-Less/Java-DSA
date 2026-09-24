@@ -9,10 +9,9 @@ public class NumberSquare {
         int i = sc.nextInt();
         int j, k;
         for (j = 0; j < i; j++) {
-
-            for (k = i; k > j; k--) {
-                System.out.print(k + " ");
-
+            
+            for (k = 0; k < i; k++) {
+                System.out.print(k+1 + " ");
             }
 
             System.out.println();
